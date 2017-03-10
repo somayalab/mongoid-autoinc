@@ -1,0 +1,5 @@
+before_install:
+  - gem update --system
+  - gem update bundler
+
+services: mongodb
